@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal - www.codingnepalweb.com -->
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- <title> Responsive Drop Down Navigation Menu | CodingLab </title>-->
+    <link rel="stylesheet" href="style.css">
+    <!-- Boxicons CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="website icon" type="png" href="assets/siliwangi.png">
+    <title>Puskesmas Siliwangi</title>
+</head>
+
+<body>
+    <nav>
+        <div class="navbar">
+            <i class='bx bx-menu'></i>
+            <div class="logo-garut"><img src="assets/grt.png"></img>
+            </div>
+            <div class="nav-links">
+                <div class="sidebar-logo">
+                    <span class="logo-name">siliwangi</span>
+                    <i class='bx bx-x'></i>
+                </div>
+                <ul class="links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="tentang.html">Tentang Kami</a></li>
+                    <li>
+                        <a href="#">Pelayanan</a>
+                        <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
+                        <ul class="htmlCss-sub-menu sub-menu">
+                            <li><a href="jenispel.html">Jenis Pelayanan</a></li>
+                            <li><a href="syaratpel.html">Syarat Pelayanan</a></li>
+                            <li><a href="alurpel.html">Alur Pelayanan</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Pengaduan</a>
+                        <i class='bx bxs-chevron-down js-arrow arrow '></i>
+                        <ul class="js-sub-menu sub-menu">
+                            <li><a href="alurpeng.html">Alur Pengaduan</a></li>
+                            <li><a href="kontakpeng.html">Kontak Pengaduan</a></li>
+                            <li><a href="pengaduan.php">Pengaduan Disini</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="artikel.html">Artikel</a></li>
+                    <li><a href="daftar.php">Daftar Pasien</a></li>
+                </ul>
+            </div>
+            <div class="logo-pkm">
+                <img src="assets/pkm.png">
+            </div>
+        </div>
+        <div id="scroll-container">
+            <div id="scroll-text">Selamat Datang di Website Puskesmas Siliwangi:D</div>
+        </div>
+    </nav>
+    <script src="script.js"></script>
+
+    <!--Struktur body-->
+    <div class="wrapper">
+        <!--content 1/about-->
+        <section class="home">
+            <img src="assets/siliwangi.png" style="width:30%; height:65%; margin-left:200px; margin-top:120px;">
+            <div class="kolom">
+                <p class="deskripsi-home">UPT Puskesmas Siliwangi Garut</p>
+                <h2>Tentang Kami</h2>
+                <p>Struktur Organisasi dan Sejarah</p>
+                <button type="button" class="tbl">
+                    <a href="tentang.html">
+                        Info Selengkapnya...
+                    </a>
+                </button>
+            </div>
+        </section>
+        <!--content 1 beres-->
+
+        <!--content 2/visi misi-->
+        <section id="home2">
+            <div class="content2">
+                <p class="deskripsi" style="margin-left:30px; margin-top:1px;">Layanan Inovasi</p>
+                <img src="assets/inovasi.jpeg">
+                <img src="assets/vmm.jpeg">
+            </div>
+        </section>
+        <!--content 2 beres-->
+
+        <!--TABLE BUKA TUTUP-->
+        <div class="table">
+            <p class="deskripsi" style="text-align: center;">Jadwal Buka dan Tutup</p>
+            <table>
+                <tr>
+                    <th>Hari</th>
+                    <th>Pendaftaran</th>
+                    <th>Pelayanan</th>
+                    <th>Istirahat</th>
+                </tr>
+                <tr>
+                    <td>Senin - Kamis</td>
+                    <td>07.30 - 13.30</td>
+                    <td>08.00 - 14.00</td>
+                    <td>12.00 - 13.00</td>
+                </tr>
+                <tr>
+                    <td>Jum'at</td>
+                    <td>07.30 - 14.00</td>
+                    <td>08.00 - 14.30</td>
+                    <td>11.30 - 13.30</td>
+                </tr>
+                <tr>
+                    <td>Sabtu</td>
+                    <td>07.30 - 12.30</td>
+                    <td>08.00 - 13.00</td>
+                    <td>11.30 - 12.00</td>
+                </tr>
+            </table>
+        </div>
+        <!--CLOSE TABLE-->
+
+        <!--Artikel-->
+        <section class="bg">
+            <p class="deskripsi">Artikel</p>
+            <div class="gallery">
+                <a target="_blank">
+                    <img src="assets/artikel/gizi.jpeg" alt="pemeriksaan gizi" width="600" height="400">
+                </a>
+                <div class="desc">Kegiatan Aksi bergizi dan Pemeriksaan Anak di SMPN 1 Garut</div>
+                <button type="button" class="btn-artikel">
+                    <a href="1.html"><span class="box">
+                        Baca Selengkapnya
+                    </span></a>
+                </button>
+            </div>
+            <div class="gallery">
+                <a target="_blank">
+                    <img src="assets/artikel/penjaringan.jpeg".jpg" alt="Penjaringan" width="600" height="400">
+                </a>
+                <div class="desc">Kegiatan Penjaringan Anak Sekolah Dasar Muarasanding 2 Garut</div>
+                <button type="button" class="btn-artikel">
+                    <a href="2.html"><span class="box">
+                        Baca Selengkapnya
+                    </span></a>
+                </button>
+            </div>
+            <div class="gallery">
+                <a target="_blank">
+                    <img src="assets/artikel/imunisasi.jpeg" alt="Mountains" width="600" height="400">
+                </a>
+                <div class="desc">Bulan Imunisasi Anak Sekolah (BIAS)</div>
+                <button type="button" class="btn-artikel">
+                    <a href="3.html"><span class="box">
+                        Baca Selengkapnya
+                    </span></a>
+                </button>
+            </div>
+            <div class="gallery">
+                <a target="_blank">
+                    <img src="assets/artikel/vaksin.jpeg" alt="Mountains" width="600" height="400">
+                </a>
+                <div class="desc">Vaksinasi COVID-19 Guru SMP dan SMA di Sekolah Muhammadiyah Garut</div>
+                <button type="button" class="btn-artikel">
+                    <a href="4.html"><span class="box">
+                        Baca Selengkapnya
+                    </span></a>
+                </button>
+            </div>
+        </section>
+        <!--close Artikel-->
+
+        <!--footer-->
+        <div id="contact">
+            <div class="wrapper">
+                <div class="footer">
+                    <div class="footer-section">
+                        <h3>About</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint, culpa!</p>
+                    </div>
+                    <div class="footer-section">
+                        <h3>Contact</h3>
+                        <p>Alamat : Jl. Siliwangi, No. 13, Rt.13 Rw.08, Pakuwon, Kec. Garut Kota, Kabupaten Garut, Jawa Barat</p>
+                        <p>NoTelp : (0262)2800763</p>
+                        <p>Kode Pos: 44117</p>
+                        <p>Email : pkmsiliwangi@gmail.com</p>
+                    </div>
+                    <div class="footer-section">
+                        <h3>Social Media</h3>
+                        <div class="logo-social">
+                            <ul>
+                                <li>
+                                    <a href="https://www.facebook.com/PKMSILIWANGI/">
+                                        <img src="assets/vector/fb.png">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.instagram.com/puskesmassiliwangi/?hl=en">
+                                        <img src="assets/vector/ig.png"></a>
+                                </li>
+                                <li>
+                                    <a href="https://www.youtube.com/@uptpuskesmassiliwangi5472">
+                                        <img src="assets/vector/yt.png">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="copyright">
+                <div class="wrapper">
+                    &copy; 2023. <b>Puskesmas Siliwangi</b> All Rights Reserved.
+                </div>
+            </div>
+        </div>
+        <!--close footer-->
+</body>
+
+</html>
